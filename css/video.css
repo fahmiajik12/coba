@@ -1,0 +1,288 @@
+body{
+  /* height: 2000px; */
+}
+
+/* NAVBAR */
+
+nav .container #navbarNav ul li a {
+  font-weight: bold;
+}
+
+nav .container #navbarNav ul li .login {
+  background-color: white;
+  /* padding: 10px 10px; */
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  nav .container #navbarNav ul li .login {
+    width: 90px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768  px) {
+  nav .container #navbarNav ul li .login {
+    width: 90px;
+    margin-left: 0;
+  }
+}
+
+/* AKHIR NAV */
+
+
+
+
+
+
+
+
+
+/* FOTO SECTION */
+.video
+{
+  background-color: #fff;
+  margin-bottom: 40px;
+}
+
+.video .container  h4
+{
+  color: #4DA55D;
+  font-weight: bold;
+}
+
+
+.video .container hr
+{
+  width: 250px;
+  border: 1.5px solid #5FAD6A;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+.video .container .judul
+{
+  margin-bottom: 20px;
+}
+
+.video .container .satu .card, .video .container .dua .card
+{
+  border-radius: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 19px rgb(232 232 232);
+  /* margin-left:-10px; */
+  margin-left: 10%;
+}
+
+.video .container .satu .card h5, .video .container-fluid .dua .card h5
+{
+  font-size: 17px;
+}
+
+.video .container .isi iframe
+{
+  border-radius:30px;
+  width: 356px;
+  height:215px;
+}
+
+@media only screen and (max-width: 576px) {
+  .video .container .isi
+  {
+    margin-left: 5px;
+  }
+
+  .video .container .isi iframe
+  {
+    margin-bottom: 10px;
+  }
+
+  .video .container .row hr
+  {
+    width: 230px;
+  }
+}
+
+/* @media only screen and (max-width: 700px) {
+  .video .container .satu .card, .video .container .dua .card
+  {
+    margin-left: 16%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .video .container .satu .card, .video .container .dua .card
+  {
+    margin-left: 25%;
+  }
+} */
+
+/* AKHIR FOTO SECTION */
+
+
+
+
+
+
+
+
+
+
+/* MODAL SECTION */
+
+
+.seeMore .modal .modal-body .row
+{
+  border-radius: 30px;
+  margin-bottom: 20px;
+  /* box-shadow: 0 2px 19px rgb(232 232 232); */
+  /* margin-left:-10px; */
+  /* margin-left: 10%; */
+}
+
+.seeMore .modal .modal-body .row iframe
+{
+  border-radius:30px;
+  width: 356px;
+  height:215px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 576px) {
+  .seeMore .modal .modal-body iframe
+  {
+    margin-bottom: 10px;
+  }
+
+  .btn-outline-success
+  {
+    margin-top: -30px;
+  }
+}
+
+
+
+
+
+
+
+
+/* BAGIAN VIDEO KEGIATAN */
+.baris
+{
+  padding-bottom: 130px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOTTER */
+footer{
+  position: relative;
+  padding-bottom: 0;
+}
+
+footer img
+{
+  /* height: 400px; */
+}
+footer .container
+{
+  left: 5%;
+  position: absolute;
+  bottom: 0;
+  /* padding-bottom: 300px; */
+}
+
+footer .container .row .kiri p a
+{
+  text-decoration: none;
+  color: black;
+}
+
+footer .container .row .kiri .alamat
+{
+  font-size: 22px;
+}
+
+footer .container .row .kanan
+{
+  text-align: right;
+}
+
+footer .container .row .kanan svg
+{
+  width: 35px;
+  height: 35px;
+  margin:10px 5px 15px 5px;
+}
+
+footer .container .row .kiri svg
+{
+  width: 30px;
+  height: 30px;
+
+}
+
+@media only screen and (max-width: 576px) {
+  footer img
+  {
+    height: 300px;
+    width: 100%;
+  }
+
+  footer .container .row
+  {
+    background-color: #d8f3dc;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  footer .container
+  {
+    left: 0;
+  }
+
+  footer .container .row .kanan
+  {
+    text-align: center;
+  }
+
+  footer .container .row .kiri svg
+  {
+    width: 20px;
+    height: 20px;
+
+  }
+
+  footer .container .row .kiri .alamat
+  {
+    font-size:17px;
+  }
+
+  footer .container .row .kanan svg
+  {
+    width: 27px;
+    height: 27px;
+    margin:15px 5px;
+  }
+
+}

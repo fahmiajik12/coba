@@ -1,0 +1,277 @@
+
+
+/* NAVBAR */
+
+nav .container #navbarNav ul li a {
+  font-weight: bold;
+}
+
+nav .container #navbarNav ul li .login {
+  background-color: white;
+  /* padding: 10px 10px; */
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  nav .container #navbarNav ul li .login {
+    width: 90px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768  px) {
+  nav .container #navbarNav ul li .login {
+    width: 90px;
+    margin-left: 0;
+  }
+}
+
+/* AKHIR NAV */
+
+.bagianRa{
+  background-image: url(../img/Beranda/fix_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  background-size: cover;
+}
+
+.bagianRa .container {
+  padding-top: 200px;
+  padding-bottom: 150px;
+}
+
+.bagianRa .container h4
+{
+  color: #4DA55D;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 576px) {
+  .bagianRa .container {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    /* margin-right: -px; */
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .bagianRa .container {
+    padding-top: 110px;
+    padding-bottom: 40px;
+  }
+}
+
+/* .bagianRa .container hr
+{
+  width: 40px;
+  border: 1.5px solid #5FAD6A;
+  margin-top: -5px;
+} */
+
+
+/* EKSTRAKULIKULER */
+.mis
+{
+  padding-top: 40px;
+  background-color: #d8f3dc;
+  margin-bottom: -10px;
+  /* background-image: url(../img/Beranda/kubus.png);
+  background-position: 1px 0;
+  background-size: cover; */
+}
+
+.mis .container h4
+{
+  color: #4DA55D;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 576px) {
+.mis .container .row .text-end
+{
+  margin-left:  -5px;
+}
+}
+
+
+/* .mis .container .row .text-end hr
+{
+  width: 50px;
+  border: 1.5px solid #5FAD6A;
+  margin-left: 1000px;
+  margin-bottom: 20px;
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 576px) {
+  .mis .container .row .text-end hr
+  {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .mis .container .row .text-end hr
+  {
+    margin-left: 467px;
+  }
+} */
+
+
+/* AKHIR TESTIMONI */
+
+/* TESTIMONI */
+.programUnggulan
+{
+  padding-top: 40px;
+  background-color: #fff;
+  margin-bottom: -10px;
+}
+
+.programUnggulan .container h4
+{
+  color: #4DA55D;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+. .container .row hr
+{
+  width: 200px;
+  border: 1.5px solid #5FAD6A;
+  margin-bottom: 20px;
+  margin-top:0;
+}
+
+.programUnggulan .container .judul
+{
+  margin-bottom: 20px;
+}
+
+.programUnggulan .container .row .card
+{
+  border-radius: 30px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 19px rgb(232 232 232);
+}
+
+@media only screen and (max-width: 576px) {
+  .programUnggulan .container .row .card
+  {
+    margin-bottom: 80px;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .bagianRa .container {
+    padding-top: 110px;
+    padding-bottom: 40px;
+  }
+}
+
+
+
+/* AKHIR TESTIMONI */
+
+
+
+
+
+/* FOTTER */
+footer{
+  position: relative;
+
+}
+
+footer img
+{
+  /* height: 400px; */
+}
+footer .container
+{
+  left: 5%;
+  position: absolute;
+  bottom: 0;
+  /* padding-bottom: 300px; */
+}
+
+footer .container .row .kiri p a
+{
+  text-decoration: none;
+  color: black;
+}
+
+footer .container .row .kiri .alamat
+{
+  font-size: 22px;
+}
+
+footer .container .row .kanan
+{
+  text-align: right;
+}
+
+footer .container .row .kanan svg
+{
+  width: 35px;
+  height: 35px;
+  margin:10px 5px 15px 5px;
+}
+
+footer .container .row .kiri svg
+{
+  width: 30px;
+  height: 30px;
+
+}
+
+@media only screen and (max-width: 576px) {
+  footer img
+  {
+    height: 300px;
+    width: 100%;
+  }
+
+  footer .container .row
+  {
+    background-color: #d8f3dc;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  footer .container
+  {
+    left: 0;
+  }
+
+  footer .container .row .kanan
+  {
+    text-align: center;
+  }
+
+  footer .container .row .kiri svg
+  {
+    width: 20px;
+    height: 20px;
+
+  }
+
+  footer .container .row .kiri .alamat
+  {
+    font-size:17px;
+  }
+
+  footer .container .row .kanan svg
+  {
+    width: 27px;
+    height: 27px;
+    margin:15px 5px;
+  }
+
+}

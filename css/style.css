@@ -1,0 +1,340 @@
+
+
+/* NAVBAR */
+
+nav .container #navbarNav ul li a {
+  font-weight: bold;
+}
+
+nav .container #navbarNav ul li .login {
+  background-color: white;
+  /* padding: 10px 10px; */
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+  nav .container #navbarNav ul li .login {
+    width: 90px;
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  nav .container #navbarNav ul li .login {
+    width: 90px;
+    margin-left: 0;
+  }
+}
+
+/* AKHIR NAV */
+
+/* CAROSOL */
+@media only screen and (max-width: 576px) {
+  .hero .carousel .carousel-inner .carousel-item img{
+    height: 33vh !important;
+  }
+
+  .kataSambutan
+  {
+    /* margin-top: 70px; */
+    /* padding-top: 30px; */
+  }
+}
+/* AKHIR CAROSOL */
+
+/* KATA SAMBUTAN; */
+
+.kataSambutan {
+  /* margin-top: 0px; */
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color: #f4fff5
+  /* background: rgb(244,255,245);
+background: linear-gradient(90deg, rgba(244,255,245,1) 0%, rgba(216,243,220,1) 35%, rgba(244,255,245,1) 100%); */
+/* background: rgb(244,255,245);
+background: linear-gradient(90deg, rgba(244,255,245,1) 0%, rgba(248,243,220,1) 35%, rgba(244,255,245,1) 100%); */
+
+}
+
+.kataSambutan .container .row .atas h4
+{
+  color: #4DA55D;
+  font-weight: bold;
+}
+
+.garisAtas {
+  width: 190px;
+  border: 1.5px solid #5FAD6A;
+  margin-top: -5px;
+  /* margin-left: 35%; */
+}
+
+.bawah {
+  margin-top:30px;
+}
+
+.garisBawah {
+  margin-top: -3px;
+  border: 1.5px solid #5FAD6A;
+}
+
+.kataSambutan .container .row .bawah h4
+{
+  color: #4DA55D;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.kataSambutan .penutup p {
+  line-height: 10px;
+}
+
+.kataSambutan .penutup
+{
+  margin-top:30px;
+}
+
+
+.kataSambutan .container .row img {
+  width:300px;
+  height:370px;
+  margin-top:10%;
+  margin-left: 15%;
+}
+
+@media only screen and (max-width: 576px) {
+  .kataSambutan .container .row .text
+  {
+    margin-top: 40px;
+  }
+
+  .kataSambutan .penutup
+  {
+    margin-top:50px;
+  }
+}
+
+/* VISI MISI */
+.visiMisi
+{
+
+  background-image: url(../img/vm/fix_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 100%;
+  background-size: cover;
+  /* height: 50%; */
+  /* background-size: 50%; */
+
+}
+
+@media only screen and (max-width: 576px) {
+  .visiMisi
+  {
+    background-position: center;
+    padding-top: 40px
+  }
+}
+
+.visiMisi .container .row .bg-avatar img
+{
+
+  /* background-image: url("../img/skull.jpeg");
+  background-size: cover; */
+  border: 5px solid whitesmoke;
+  width:380px;
+  height:600px;
+}
+
+/* .visiMisi .container .row .bg-avatar img
+{
+  margin-top: 21%;
+  width: 300px;
+  height: 100%;
+} */
+
+
+
+.visiMisi .container
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.visiMisi .container .row .text p
+{
+  font-size: 15px;
+}
+
+.visiMisi .container .row .text h4
+{
+  /* color: #4DA55D; */
+  color: yellow;
+  font-weight: bold;
+}
+
+.visiMisi .container .row .text
+{
+  /* margin-left: 30px; */
+}
+
+@media only screen and (max-width: 576px) {
+  .visiMisi .container
+  {
+    padding-top: 0px;
+    padding-bottom:0px;
+  }
+
+  .visiMisi .container .row .text
+  {
+    order: 2;
+    padding-top: 30px;
+  }
+
+  .visiMisi .container .row .bg-avatar
+  {
+    order: 1;
+  }
+}
+
+
+
+
+/* TESTIMONI */
+.testimoni
+{
+  padding-top: 40px;
+  background-color: #d8f3dc;
+  margin-bottom: -10px;
+  /* background-image: url(../img/tentangKami/bg2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%; */
+  /* background: rgb(244,255,245);
+background: linear-gradient(90deg, rgba(244,255,245,1) 0%, rgba(216,243,220,1) 35%, rgba(244,255,245,1) 100%); */
+/* background: rgb(244,255,245);
+background: linear-gradient(90deg, rgba(244,255,245,1) 0%, rgba(248,243,220,1) 35%, rgba(244,255,245,1) 100%); */
+}
+
+.testimoni .container .judul h4
+{
+  color: #4DA55D;
+  font-weight: bold;
+}
+
+
+.testimoni .container .row hr
+{
+  width: 150px;
+  border: 1.5px solid #5FAD6A;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.testimoni .container .judul
+{
+  margin-bottom: 20px;
+}
+
+.testimoni .container .satu .card, .testimoni .container .dua .card
+{
+  border-radius: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 19px rgb(232 232 232);
+}
+
+.testimoni .container .satu .card h5, .testimoni .container-fluid .dua .card h5
+{
+  font-size: 17px;
+}
+
+@media only screen and (max-width: 576px) {
+  .testimoni .container .satu .card, .testimoni .container .dua .card
+  {
+    margin-left: 16px;
+  }
+}
+
+
+/* AKHIR TESTIMONI */
+
+
+/* KONTAK */
+
+.kontak
+{
+  margin-bottom: 0px;
+}
+
+.kontak .container .row h4
+{
+  color: #4DA55D;
+  font-weight: bold;
+}
+
+.kontak .container .row hr
+{
+  width: 115px;
+  border: 1.5px solid #5FAD6A;
+  margin:auto;
+  margin-bottom: 30px;
+}
+
+
+.kontak .container .row .keterangan h5
+{
+  /* color: #4DA55D; */
+  /* font-weight: bold; */
+  /* font-size: 15px; */
+  margin-bottom: 30px;
+}
+
+.kontak .container .row .mb-3 input, .kontak .container .row .mb-3 textarea, .kontak .container .row .card, .kontak .container .row button
+{
+  border-radius: 10px;
+  box-shadow: 0 2px 19px rgb(232 232 232);
+}
+
+.kontak .container .row .card .card-body .sosmed
+{
+  margin: 5px auto;
+}
+
+.kontak .container .row .card .card-body .sosmed svg
+{
+  margin-right: 5px;
+  width: 25px;
+  height: 25px;
+}
+
+.kontak .container .row .card .card-body .loct svg
+{
+  width: 25px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+.kontak .container a
+{
+  text-decoration: none;
+  color: black;
+}
+
+@media only screen and (max-width: 576px) {
+  .kontak .container .row button
+  {
+            margin-left: 42%;
+
+      margin-bottom: 40px;
+  }
+
+  .kontak .container .konten .card .card-body .col-md-5
+  {
+    margin-left: 36%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}
